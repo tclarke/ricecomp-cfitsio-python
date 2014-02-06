@@ -20,9 +20,8 @@ setup(
           'Topic :: Software Development :: Libraries :: Python Modules',
           'Topic :: System :: Archiving :: Compression',
       ],
-   platforms = ('Any',),
    keywords = ('compression','rice','lossless','module'),
-   requires = ["Cython (>=0.2)"],
+   requires = ["Cython (>=0.2)","numpy (>=1.7.0)"],
    cmdclass = {'build_ext':build_ext},
    ext_modules = [Extension("ricecomp", ["ricecomp.pyx"],
                             libraries=["cfitsio"])]
