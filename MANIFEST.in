@@ -1,0 +1,3 @@
+include *.pyx
+include setup.py
+include cfitsio_rcomp.h
