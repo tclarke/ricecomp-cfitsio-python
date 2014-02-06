@@ -10,11 +10,11 @@ setup(
    author="Trevor R.H. Clarke",
    author_email="trevor@notcows.com",
    url="https://github.com/tclarke/ricecomp-cfitsio-python.git",
-   license="BSD License",
+   license="BSD 2 clause",
    classifiers=[
           'Development Status :: 4 - Beta',
           'Intended Audience :: Developers',
-          'License :: OSI Approved :: BSD License',
+          'License :: OSI Approved :: BSD 2 Clause License',
           'Operating System :: OS Independent',
           'Programming Language :: Python',
           'Topic :: Software Development :: Libraries :: Python Modules',
